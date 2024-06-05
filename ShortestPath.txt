@@ -1,0 +1,60 @@
+The shortest distance from A to A is 0
+The shortest path:
+A
+The shortest distance from A to B is 791.26
+The shortest path:
+A -> B
+The shortest distance from A to C is 104.58
+The shortest path:
+A -> C
+The shortest distance from A to D is 622.55
+The shortest path:
+A -> H -> D
+The shortest distance from A to E is 662.3
+The shortest path:
+A -> E
+The shortest distance from A to F is 361.62
+The shortest path:
+A -> F
+The shortest distance from A to G is 936.2
+The shortest path:
+A -> F -> O -> G
+The shortest distance from A to H is 99.37
+The shortest path:
+A -> H
+The shortest distance from A to I is 382.44
+The shortest path:
+A -> I
+The shortest distance from A to J is 939.49
+The shortest path:
+A -> F -> O -> J
+The shortest distance from A to K is 645.0
+The shortest path:
+A -> F -> K
+The shortest distance from A to L is 905.38
+The shortest path:
+A -> L
+The shortest distance from A to M is 582.76
+The shortest path:
+A -> M
+The shortest distance from A to N is 825.43
+The shortest path:
+A -> H -> N
+The shortest distance from A to O is 474.28
+The shortest path:
+A -> F -> O
+The shortest distance from A to P is 1201.21
+The shortest path:
+A -> F -> R -> P
+The shortest distance from A to Q is 813.15
+The shortest path:
+A -> C -> S -> Q
+The shortest distance from A to R is 675.4200000000001
+The shortest path:
+A -> F -> R
+The shortest distance from A to S is 199.79
+The shortest path:
+A -> C -> S
+The shortest distance from A to T is 766.73
+The shortest path:
+A -> F -> T
