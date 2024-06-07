@@ -83,14 +83,21 @@ class Graph:
             # Else discard the edge 
   
         minimumCost = 0
-        print("Edges in the constructed MST") 
+        output_lines = ["Edges in the constructed MST"]
         for u, v, weight in result: 
             minimumCost += weight 
-            print("%s -- %s == %f" % (u, v, weight)) 
-        print("Minimum Spanning Tree weight:", minimumCost)
+            output_lines.append(f"{u} -- {v} == {weight}")
+        output_lines.append(f"Minimum Spanning Tree weight: {round(minimumCost, 2)}")
+        return output_lines
 
 # Create an instance of Graph with the number of vertices
 g = Graph(len(graph))
 
 # Call KruskalMST with the graph dictionary
-g.KruskalMST(graph)
+output_lines = g.KruskalMST(graph)
+
+# Write the output inside a text file
+with open("MinimumSpanningTree.txt", "w") as file:
+    for line in output_lines:
+        file.write(line + "\n")
+
